@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff6f6;
+}
+
+/* Primeira parte - adicionar o texto */
+.adicione-seu-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h3 {
+    margin-right: 20px;
+
+}
+
+textarea {
+    border: 1px solid #ff9e9e;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+}
+
+button {
+    background-color: #b999f5b3;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h3, textarea, button {
+    font-size: 30px;
+    font-family: "slabo 27px", serif;
+
+}
+
+/*  Segunda parte - gráfico com palavras */
+
+#container {
+    height: 70vh;
+    margin: 40px;
+    border-radius: 38px;
+    background: linear-gradient(145deg, #f8ecec, #fff1f1);
+    box-shadow: 20px 20px 20px #d6c4c4,
+        -20px -20px 20px #fffafa;
+
+}
