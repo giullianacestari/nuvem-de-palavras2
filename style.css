@@ -44,7 +44,9 @@ button {
     cursor: pointer;
 }
 
-h3, textarea, button {
+h3,
+textarea,
+button {
     font-size: 30px;
     font-family: "slabo 27px", serif;
 
@@ -59,5 +61,6 @@ h3, textarea, button {
     background: linear-gradient(145deg, #f8ecec, #fff1f1);
     box-shadow: 20px 20px 20px #d6c4c4,
         -20px -20px 20px #fffafa;
+    position: relative;
 
 }
