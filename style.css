@@ -71,87 +71,82 @@ button {
     background: linear-gradient(145deg, #f8ecec, #fff1f1);
     box-shadow: 20px 20px 20px #d6c4c4,
         -20px -20px 20px #fffafa;
-    position: relative;
-    /* position: absolute;
-    width: 95vw;
-    height: 70vh;
-    margin: 40px; */
     display: grid;
-    justify-content: center;
-    align-items: center;
     gap: 5px;
 
 
     grid-template:
-        "b b f" auto
-        "d a f" auto
+        "f f b" auto
+        "d a b" auto
         "d e c" auto / 1fr 1fr 1fr;
-}
-
-body>.itens {
-    color: #022f40;
 }
 
 
 .itens :nth-child(1n) {
-    font-size: 8rem;
+    font-size: 10rem;
     color: #022f40;
     background-color: yellow;
     height: 100%;
     font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .itens :nth-child(2n) {
-    font-size: 5rem;
-    color: #38aecc;
+    font-size: 7rem;
+    color: #6f7b04;
     background-color: red;
 }
 
 .itens :nth-child(3n) {
-    font-size: 3rem;
-    color: #0090c1;
+    font-size: 5rem;
+    color: #f53eff;
     background-color: blue;
 }
 
 .itens :nth-child(4n) {
-    font-size: 2.5rem;
-    color: #183446;
+    font-size: 3.5rem;
+    color: #00d47b;
     background-color: purple;
 
 }
 
 .itens :nth-child(5n) {
     font-size: 2rem;
-    color: #046e8f;
+    color: #00c3ff;
     background-color: grey;
 }
 
 .itens :nth-child(6n) {
     font-size: 1.5rem;
-    color: #046e8f;
+    color: rgb(255, 2, 2);
     background-color: rgb(88, 100, 15);
 }
 
-#item-1 {
+
+.item-1 {
     grid-area: a;
 }
 
-#item-2 {
+.item-2 {
     grid-area: b;
 }
 
-#item-3 {
+.item-3 {
     grid-area: c;
 }
 
-#item-4 {
+.item-4 {
     grid-area: d;
 }
 
-#item-5 {
+.item-5 {
     grid-area: e;
 }
 
-#item-6 {
+.item-6 {
     grid-area: f;
 }
+
