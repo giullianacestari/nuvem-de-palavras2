@@ -90,27 +90,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /*
 
-@ Pontos de melhoria
 
-1. O código está pegando caracteres especiais, ex: "palavra," e "palavra."
+@ Pontos para melhorar
 
-2. Está vazando as laterais do container (palavras fora do quadro).
+- aprimorar a estilização com CSS
+- adicionar mais palavras ignoradas (implementar o arquivo JSON no JS)
+- excluir caracteres que vem grudados nas palavras (ex: 'palavra.')
 
-3. Não está colorindo as palavras.
 
-4. DIVS com posicionamento fixo
-  - precisa ordenar
-  - precisa modificar o tamanho da palavra de acordo com o container
-
-5. Quanto mais repetidas as palavras, elas crescem mais e mais. Deveria haver um limite e uma escala proporcional para crescimento.
-
-@ Resultados
-
-Consegui centralizar a palavra mais frequente
-! utiliza shift()
-! código enorme e repetitivo
-! precisa ordenar
-* fica sempre no meio
+@ Ordem de execução
 
 HTML
 - deixar as divs prontas com HTML e CSS
@@ -137,7 +125,7 @@ FINAL
 
 
 
-Documentos
+@ Documentos consultados
 https://dev.to/alvaromontoro/create-a-tag-cloud-with-html-and-css-1e90
 https://github.com/adisonlampert/workshop-word-cloud
 https://css-tricks.com/create-a-tag-cloud-with-some-simple-css-and-even-simpler-javascript/
