@@ -53,19 +53,9 @@ button {
 }
 
 /*  Segunda parte - gráfico com palavras */
-#container {
-    height: 70vh;
-    margin: 40px;
-    border-radius: 38px;
-    background: linear-gradient(145deg, #f8ecec, #fff1f1);
-    box-shadow: 20px 20px 20px #d6c4c4,
-        -20px -20px 20px #fffafa;
-    position: relative;
-
-}
-
 .itens {
     height: 70vh;
+    max-width: 100%;
     margin: 40px;
     border-radius: 38px;
     background: linear-gradient(145deg, #f8ecec, #fff1f1);
@@ -73,7 +63,7 @@ button {
         -20px -20px 20px #fffafa;
     display: grid;
     gap: 5px;
-
+    position: relative;
 
     grid-template:
         "f f b" auto
@@ -85,7 +75,7 @@ button {
 .itens :nth-child(1n) {
     font-size: 10rem;
     color: #022f40;
-    background-color: yellow;
+    background-color: rgb(255, 255, 147);
     height: 100%;
     font-weight: bold;
     text-align: center;
@@ -97,32 +87,32 @@ button {
 .itens :nth-child(2n) {
     font-size: 7rem;
     color: #6f7b04;
-    background-color: red;
+    background-color: rgb(255, 184, 184);
 }
 
 .itens :nth-child(3n) {
     font-size: 5rem;
     color: #f53eff;
-    background-color: blue;
+    background-color: rgb(196, 196, 255);
 }
 
 .itens :nth-child(4n) {
     font-size: 3.5rem;
-    color: #00d47b;
-    background-color: purple;
+    color: #007b48;
+    background-color: rgb(255, 151, 255);
 
 }
 
 .itens :nth-child(5n) {
     font-size: 2rem;
-    color: #00c3ff;
-    background-color: grey;
+    color: #00536c;
+    background-color: rgb(192, 192, 192);
 }
 
 .itens :nth-child(6n) {
     font-size: 1.5rem;
     color: rgb(255, 2, 2);
-    background-color: rgb(88, 100, 15);
+    /* background-color: rgb(88, 100, 15); */
 }
 
 

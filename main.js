@@ -29,13 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
       // console.log(frequencia);
     }
 
-    let palavrasIgnoradas = ["", "a", "o", "e", "de", "da", "do", "em", "um"];
-
-    for (let i = 0; i < palavrasIgnoradas.length; i++) {
-      let palavra = palavrasIgnoradas[i];
-      delete frequencia[palavra];
-    }
-
     // * Transforma o objeto em um array de objetos
     let itens = [];
     for (let palavra in frequencia) {
